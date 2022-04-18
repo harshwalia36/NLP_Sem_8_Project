@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>NLP Project</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 10px 50px;
+            background-color: #a0e3eb;
+        }
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+          border: 2px solid gray;
+        }
+
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        .main {
+            height: 650px;
+        }
+        textarea {
+            width: 70%;
+            min-height: 300px;
+        }
+        .business {
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Amazon Food Review Analysis and summarizing each Review</h1>
+    </header>
+    <hr>
+    <div class="main">
+        <div class="flex-box">
+            <div class="text-area">
+                <h2>Enter Review</h2>
+                <textarea id="text"></textarea>
+            </div>
+            <div class="output">
+                <h2>Output</h2>
+                <div id="output"></div>
+            </div>
+        </div>
+        <div class="lower-area">
+            <input type="button" id="button" value="Analysis">
+            <input type="button" id="button" value="Summarize">
+        </div>
+        <p>
+            {{output}}
+        </p>
+    </div>
+    <hr>
+    <div class="business">
+        <div class="text-area">
+            <h2>Business Use Case</h2>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <h2>NLP Project (Group 16):</h2>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Roll No.</th>
+          </tr>
+          <tr>
+            <td>Divyansh Kumar Singh</td>
+            <td>2018IMT-031</td>
+          </tr>
+          <tr>
+            <td>Harsh Walia</td>
+            <td>2018IMT-036</td>
+          </tr>
+          <tr>
+            <td>Nikhil Choudhary</td>
+            <td>2018IMT-058</td>
+          </tr>
+          <tr>
+            <td>Priyansh Rastogi</td>
+            <td>2018IMT-073</td>
+          </tr>
+          <tr>
+            <td>Ritik Tomar</td>
+            <td>2018IMT-083</td>
+          </tr>
+          <tr>
+            <td>Swatik Paul</td>
+            <td>2018IMT-100</td>
+          </tr>
+          <tr>
+            <td>Vivek Kamboj</td>
+            <td>2018IMT-109</td>
+          </tr>
+        </table>
+    </footer>
+</body>
+
+</html>
